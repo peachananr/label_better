@@ -2,10 +2,10 @@
 Label your form input like a boss with beautiful animation and without taking up space
 Created by [Pete R.](http://www.thepetedesign.com), Founder of [BucketListly](http://www.bucketlistly.com)
 
-[![Label Better](http://www.thepetedesign.com/images/label_better_image.png "Label Better")](http://www.thepetedesign.com/demos/label_better.html)
+[![Label Better](http://www.thepetedesign.com/images/label_better_image.png "Label Better")](http://www.thepetedesign.com/demos/label_better_demo.html)
 
 ## Demo
-[View demo](http://www.thepetedesign.com/demos/label_better.html)
+[View demo](http://www.thepetedesign.com/demos/label_better_demo.html)
 
 ## Compatibility
 Modern browsers such as Chrome, Firefox, and Safari on both desktop and smartphones have been tested. I have not tested this on IE.
