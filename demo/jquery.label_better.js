@@ -132,8 +132,9 @@
       
       btn.bind(triggerIn, function() {
         if(btn.val().length < 1) {
-          var text = btn.data("new-placeholder")  || btn.attr("placeholder");
-          $("<div class='lb_label " + settings.position + "'>"+ text + "</div>").css("opacity", "0").insertAfter(btn).animateLabel(settings, btn);
+          var text = btn.data("new-placeholder")  || btn.attr("placeholder"),
+           position = btn.data("position")  || settings.position;
+          $("<div class='lb_label " + position + "'>"+ text + "</div>").css("opacity", "0").insertAfter(btn).animateLabel(settings, btn);
         }
         btn.parent().find(".lb_label").addClass("active");
       }).bind(triggerOut, function() {
