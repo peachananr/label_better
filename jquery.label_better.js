@@ -1,5 +1,5 @@
 /* ===========================================================
- * jquery-label_better.js v1
+ * jquery-label_better.js v1.1
  * ===========================================================
  * Copyright 2013 Pete Rojwongsuriya.
  * http://www.thepetedesign.com
@@ -17,7 +17,8 @@
     position: "top",
     animationTime: 500,
     easing: "ease-in-out",
-    offset: 20
+    offset: 20,
+    hidePlaceholderOnFocus: true
 	};
 	
   $.fn.animateLabel = function(settings, btn) {
@@ -136,11 +137,19 @@
            position = btn.data("position")  || settings.position;
           $("<div class='lb_label " + position + "'>"+ text + "</div>").css("opacity", "0").insertAfter(btn).animateLabel(settings, btn);
         }
+        if (settings.hidePlaceholderOnFocus == true) {
+          btn.data("default-placeholder", btn.attr("placeholder"))
+          btn.attr("placeholder", "") 
+        }
         btn.parent().find(".lb_label").addClass("active");
       }).bind(triggerOut, function() {
         
         if(btn.val().length < 1) {
           btn.parent().find(".lb_label").bind("transitionend webkitTransitionEnd oTransitionEnd MSTransitionEnd", function(){ $(this).remove(); }).removeAnimate(settings, btn)
+        }
+        if (settings.hidePlaceholderOnFocus == true) {
+          btn.attr("placeholder", btn.data("default-placeholder")) 
+          btn.data("default-placeholder", "")
         }
         btn.parent().find(".lb_label").removeClass("active");
       });
