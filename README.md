@@ -2,6 +2,8 @@
 Label your form input like a boss with beautiful animation and without taking up space
 Created by [Pete R.](http://www.thepetedesign.com), Founder of [BucketListly](http://www.bucketlistly.com)
 
+License: [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/deed.en_US)
+
 [![Label Better](http://www.thepetedesign.com/images/label_better_image.png "Label Better")](http://www.thepetedesign.com/demos/label_better_demo.html)
 
 ## Demo
