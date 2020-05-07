@@ -4,10 +4,9 @@ Created by [Pete R.](http://www.thepetedesign.com), Founder of [BucketListly](ht
 
 License: [Attribution-ShareAlike 4.0 International](http://creativecommons.org/licenses/by-sa/4.0/deed.en_US)
 
-[![Label Better](http://www.thepetedesign.com/images/label_better_image.png "Label Better")](http://www.thepetedesign.com/demos/label_better_demo.html)
 
 ## Demo
-[View demo](http://www.thepetedesign.com/demos/label_better_demo.html)
+[View demo](http://peachananr.github.io/label_better/demo/demo.html)
 
 ## Compatibility
 Modern browsers such as Chrome, Firefox, and Safari on both desktop and smartphones have been tested. I have not tested this on IE.
